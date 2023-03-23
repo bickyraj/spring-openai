@@ -33,7 +33,7 @@ public class OpenAI {
         var request = HttpRequest.newBuilder()
                 .uri(uri)
                 .header(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                .header(HttpHeaders.AUTHORIZATION, "Bearer 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")
+                .header(HttpHeaders.AUTHORIZATION, "Bearer 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")
                 .POST(HttpRequest.BodyPublishers.ofString(requestBody))
                 .build();
 
